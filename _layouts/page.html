@@ -1,0 +1,29 @@
+{% include header.html %}
+{% include breadcrumb.html %}
+
+ <!-- Page content -->
+
+<div id="page-content-wrapper">
+<!-- Keep all page content within the page-content inset div! -->
+
+    <div class="title-group">
+        <header>
+            <h1>
+                {{ page.title }}
+                <small>{{page.description}}</small>
+            </h1>           
+        </header>
+    </div>
+    <div class="row container">
+        <div id="main" class="col-md-12">
+            <div class="toc-side" id="renderIn"></div>
+            {{ content }}
+        </div>
+
+    </div>
+</div>
+
+
+        <!-- /#page-content-wrapper -->
+
+{% include footer.html %}

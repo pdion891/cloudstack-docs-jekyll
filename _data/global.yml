@@ -1,0 +1,16 @@
+# Site Settings
+copyright_year: 20120
+title: 'Apache Cloudstack Documentation'
+description: 'Open Source Cloud Computing™'
+url: 'http://localhost:4000' # the base hostname & protocol for your site
+footer_text: 'Copyright © 2016 The Apache Software Foundation,
+Licensed under the Apache License, Version 2.0. <BR>"Apache", "CloudStack", "Apache CloudStack",
+the Apache CloudStack logo, the Apache CloudStack Cloud Monkey logo and the Apache feather
+logos are registered trademarks or trademarks of The Apache Software Foundation.<BR>
+<A href="http://cloudstack.apache.org/trademark-guidelines.html">Apache CloudStack Trademark Usage</a> - 
+<A href="http://cloudstack.apache.org/bylaws.html">Apache CloudStack Community ByLaws</A>'
+
+# Admin Settings
+admin_name: 'Apache.org'
+admin_email: 'dev@cloudstack.apache.org'
+

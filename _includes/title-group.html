@@ -1,0 +1,23 @@
+<div class="title-group">
+    <h1>
+        <span>
+        {% if page.title %}
+            {{ page.title }}
+        {% else %}
+            {{ site.data.global.title }}
+        {% endif %}
+        </span>
+    </h1>
+    {% if page.id %}
+    <aside>
+        {{ page.date | date: "%m.%d.%y" }}
+        {% if page.categories != empty %}
+            &middot;
+            {% for category in page.categories %}
+                <span>{{ category }}</span>
+            {% endfor %}
+        {% endif %}
+    </aside>
+    {% endif %}
+
+</div>

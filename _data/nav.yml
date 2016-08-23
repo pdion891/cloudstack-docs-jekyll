@@ -1,0 +1,11 @@
+main:
+    - { url: '/', text: 'Blog' }
+    - { url: '/about', text: 'About' }
+    - { url: '/test', text: 'test' }
+    - { url: '/quick', text: 'Quick' }
+sidebar:
+    - { url: '/architecture', text: 'Architecture', icon: 'fa fa-cloud' }
+    - { url: '/installation', text: 'Installation', icon: 'fa fa-book' }
+    - { url: '/configuration', text: 'Configuration', icon: 'fa fa-cogs' }
+    - { url: '/admin', text: 'Administration', icon: 'fa fa-user-plus' }
+    - { url: '/user', text: 'User', icon: 'fa fa-user'}
